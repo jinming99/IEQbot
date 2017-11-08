@@ -1,0 +1,20 @@
+<launch> 
+
+  <rosparam param="REMOTE_CONTROL">false</rosparam>
+  
+  <rosparam param="ROUNDS">200</rosparam>
+
+  <rosparam param="x_locations">[-2.129,-0.556,0.826,1.458,-0.114,-2.203,-2.203,-0.556,1.037,1.664]</rosparam>
+ 
+  <rosparam param="y_locations">[-1.998,-2.837,-2.912,-1.910,-0.823,-0.650,0.558,1.322,1.223,0.112]</rosparam>
+
+  <node name="ata_navigation_node" pkg="ata_navigation" type="ata_navigation_node" output="screen"/> 
+	
+  <node pkg="posemsg_to_file" type="posemsg_to_file_node" name="posemsg_to_file" clear_params="true" output="screen">
+    <param name="topic" value="/map" type="str" />
+    <param name="topic_ref" value="/base_link" type="str" />
+    <param name="invert_pose" value="false" />
+    <param name="topic_type" value="tf" type="str" />
+  </node>
+
+</launch>
