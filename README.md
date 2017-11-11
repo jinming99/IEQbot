@@ -8,7 +8,10 @@ Potential applications of this system include indoor thermal comfort, lighting, 
 
 Feel free to use it! Please contact [Ming Jin](http://www.jinming.tech/) for any enquiries.
 
+Contributors: Yulun Tian, Mingjian Lu, Ming Jin
+
 
 ## Reference
 
-Ming Jin, Shichao Liu, Stefano Schiavon, Costas Spanos, "Automated mobile sensing: Towards high-granularity agile indoor environmental quality monitoring", Building and Environment, Available online 6 November 2017, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2017.11.003.
+[Journal] Ming Jin, Shichao Liu, Stefano Schiavon, Costas Spanos, "Automated mobile sensing: Towards high-granularity agile indoor environmental quality monitoring", Building and Environment, Available online 6 November 2017, ISSN 0360-1323, https://doi.org/10.1016/j.buildenv.2017.11.003. 
+[Conference] Ming Jin, Shichao Liu, Yulun Tian, Mingjian Lu, Stefano Schiavon, and Costas Spanos, "Indoor environmental quality monitoring by autonomous mobile sensing", [ACM BuildSys, 2017, Delft, Netherlands](http://buildsys.acm.org/2017/program/)
